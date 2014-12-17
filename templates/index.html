@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>完整demo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<script src="//cdn.ckeditor.com/4.4.6/standard/ckeditor.js"></script>
+</head>
+<body>
+<div>
+    <h1>完整demo</h1>
+    <textarea id="content" class="ckeditor"></textarea>
+</div>
+
+<script type="text/javascript">
+CKEDITOR.replace('content', {
+	filebrowserUploadUrl: '/ckupload/',
+});
+</script>
+</body>
+</html>
